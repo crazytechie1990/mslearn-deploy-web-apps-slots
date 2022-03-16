@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'java-web-app-1'
           slot-name: 'java-web-app-stage'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_05E54C7A0BF748BABEB322F6771843B5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_937DA71F7ADD4D6BAB1A706679E45EA6 }}
           package: '*.jar'
